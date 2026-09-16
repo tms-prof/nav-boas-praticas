@@ -4,4 +4,41 @@
     padding:0;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #131212;
+    min-height: 100vh;
+}
+
+main {
+   min-height: 80vh;
+    background-color: #1e1d1d;
+    color: #fff;
+    padding: 20px;
+}
+
+header , footer {
+    display: flex;
+    height: 10vh;
+    background-color: #f0ebeb;
+    color: #111111;
+    padding: 20px;
+    gap:50px;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    gap: 100px
+}
+
+p {
+    width: 400px;
+    color: #fff;
+}
+
+
 
